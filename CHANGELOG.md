@@ -1,5 +1,41 @@
 # Changelog
 
+## [2026.6.12](https://github.com/jdx/mise/compare/v2026.6.11..v2026.6.12) - 2026-06-18
+
+### 🚀 Features
+
+- **(bootstrap)** add skip controls by @jdx in [#10497](https://github.com/jdx/mise/pull/10497)
+- **(upgrade)** fix tool removal when minimum_release_age is set by @roele in [#10466](https://github.com/jdx/mise/pull/10466)
+
+### 🐛 Bug Fixes
+
+- **(env)** expand escaped dollar in env shell expansion by @jdx in [#10511](https://github.com/jdx/mise/pull/10511)
+- **(install)** rebuild symlinks after partial installs by @risu729 in [#10470](https://github.com/jdx/mise/pull/10470)
+- **(npm)** warn when system pnpm/bun may not support minimum_release_age by @risu729 in [#10491](https://github.com/jdx/mise/pull/10491)
+- **(pipx)** upgrade shared pip for release age installs by @risu729 in [#10472](https://github.com/jdx/mise/pull/10472)
+- **(pipx)** warn for unsupported uv exclude-newer by @risu729 in [#10510](https://github.com/jdx/mise/pull/10510)
+- **(pipx)** force pip backend for mise pipx subprocess calls by @risu729 in [#10513](https://github.com/jdx/mise/pull/10513)
+- **(task)** align duplicate config task precedence by @risu729 in [#10471](https://github.com/jdx/mise/pull/10471)
+- **(task)** skip mise configs in task include dirs by @jdx in [#10500](https://github.com/jdx/mise/pull/10500)
+- **(task)** error on empty task shell by @jdx in [#10517](https://github.com/jdx/mise/pull/10517)
+- **(vfox)** resolve tools=true env path templates against the dependency toolset by @JamBalaya56562 in [#10481](https://github.com/jdx/mise/pull/10481)
+
+### 📚 Documentation
+
+- **(dotfiles)** make self-managing config first-run safe by @jdx in [#10494](https://github.com/jdx/mise/pull/10494)
+- **(env)** remove emoji checkboxes by @jdx in [#10504](https://github.com/jdx/mise/pull/10504)
+- recommend keeping mise current by @jdx in [#10505](https://github.com/jdx/mise/pull/10505)
+
+### 📦️ Dependency Updates
+
+- bump usage to 3.5.2 by @jdx in [#10498](https://github.com/jdx/mise/pull/10498)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (1)
+
+- [`cdxgen/cdxgen`](https://github.com/cdxgen/cdxgen)
+
 ## [2026.6.11](https://github.com/jdx/mise/compare/v2026.6.10..v2026.6.11) - 2026-06-16
 
 ### 🚀 Features
